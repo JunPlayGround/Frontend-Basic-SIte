@@ -59,3 +59,53 @@ img {
         height: 30px;
     }
 }
+
+/*hero*/
+.hero {
+    background-image: url("./img/hero.png");
+    padding: 94px 40px ;
+}
+
+.hero-container{
+    width: 100%;
+    max-width: 1000px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.hero-texts{
+    color: var(--color-accent-yellow);
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.hero-main-copy{
+    font-family: var(--font-family-heading);
+    font-size: 64px;
+    line-height: 1;
+    margin:0;
+    letter-spacing: 0.05em;
+}
+
+.hero-main-copy-accent{
+    color: var(--color-accent-red);
+}
+
+.hero-sub-copy{
+    margin: 0;
+}
+
+@media(max-width: 750px) {
+    .hero{
+        padding: 40px 20px;
+    }
+
+    .hero-container{
+        justify-content: flex-start;
+    }
+
+    .hero-texts{
+        gap: 20px;
+    }
+}
