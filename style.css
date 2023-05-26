@@ -136,31 +136,31 @@ img {
 
 /*About*/
 .about {
+    margin: 0;
+    padding: 80px 20px;
+    color: var(--color-white);
+    font-family: var(--font-family-body);
     background-size: cover;
     background-color: var(--color-background-naby);
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 80px 20px;
     position: relative;
-    margin: 0;
-    color: var(--color-white);
-    font-family: var(--font-family-body);
 }
 
 .about-container {
     max-width: 800px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     gap: 40px;
-    width: 100%;
 }
 
 .about-main-copy {
+    margin: 0;
     font-size: 32px;
     font-family: var(--font-family-heading);
     font-weight: 400;
-    margin: 0;
     letter-spacing: 0.02em;
     text-align: center;
 }
@@ -182,11 +182,6 @@ img {
 .about-main-part-text{
     max-width: 460px;
 }
-
-/*.about-main-part-img-wrapper{
-    /*height: 180px;
-    width: 320px;
-}*/
 
 .img-live{
     width: 320px;
