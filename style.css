@@ -1,6 +1,7 @@
 :root {
     --font-family-heading: "Anton", sans-serif;
-    --font-family-body: "Nota Sans JP", sans-serif;
+    --font-family-body: "Noto Sans JP", sans-serif;
+    --font-family-about-mobile: "Inter", sans-serif;
 
     --color-white: #fffefc;
     --color-black: #020911;
@@ -140,7 +141,7 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 80px 0px;
+    padding: 80px 20px;
     position: relative;
     margin: 0;
     color: var(--color-white);
@@ -182,17 +183,35 @@ img {
     max-width: 460px;
 }
 
-.about-main-part-img{
-    height: 180px;
+/*.about-main-part-img-wrapper{
+    /*height: 180px;
     width: 320px;
-    background-image: url("./img/live.png");
-    background-size: cover;
+}*/
+
+.img-live{
+    width: 320px;
 }
 
 @media(max-width:750px){
     .about{
         padding: 40px 20px;
-        font: "Inter";
     }
 
+    .about-main-copy{
+        font-size: 24px;
+    }
+
+    .about-main-part{
+        gap: 0;
+    }
+
+    .about-main-part-text{
+        font-family: var(--font-family-about-mobile);
+        max-width: 750px;
+    }
+
+    .about-main-part-img-wrapper{
+        display: none;
+        width: 0px;
+    }
 }
