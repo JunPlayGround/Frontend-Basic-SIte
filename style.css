@@ -256,6 +256,7 @@ img {
     display: flex;
     align-items: center;
     flex-direction: row;
+    text-decoration: none;
 }
 
 .courses-cards-img-wrapper{
@@ -283,10 +284,27 @@ img {
     font-family: var(--font-family-heading);
     font-weight: 400;
     letter-spacing: 0.05em;
-    top: auto;
+    color: var(--color-white);
 }
 
 .courses-cards-text-container{
-    width: 550px;
-    height: 150px;
+    margin: 0;
+    padding: 10px 20px;
+    font-size: 16px;
+    display: block;
+    flex-direction: column;
+    gap: 10px;
+    height: 100%;
+}
+
+.courses-cards-text{
+    margin: 0;
+    color: var(--color-black);
+    height: 108px;
+}
+
+.courses-cards-look{
+    margin: 0;
+    color: var(--color-accent-red);
+    text-align: right;
 }
