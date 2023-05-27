@@ -366,3 +366,48 @@ img {
     }
     
 }
+
+/*Button*/
+.courses-button-container{
+    background-color: var(--color-accent-red);
+    box-shadow: 4px 4px 0px var(--color-accent-yellow);
+    padding: 10px 40px;
+    display: flex;
+    flex-direction: row-reverse;
+    height: 60px;
+    width: 100%;
+    gap: 20px;
+    text-decoration: none;
+    align-items: center;
+    position: relative;
+}
+
+.courses-button-container:hover{
+    transition-property: background-color box-shadow;
+    transition-duration: 500ms;
+    transition-timing-function: linear;
+    background-color: var(--color-course-hover-red);
+    box-shadow: 12px 12px 0px var(--color-button-hover-yellow);
+}
+
+.courses-button-title{
+    width: 670px;
+    margin: 0;
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--color-white);
+    text-align: center;
+}
+
+@media(max-width: 750px) {
+    .courses-button-container{
+        padding: 10px 20px;
+        height: 40px;
+        gap: 10px;
+    }
+    
+    .courses-button-title{
+        width: 600px;
+        font-size: 14px;
+    }
+}
