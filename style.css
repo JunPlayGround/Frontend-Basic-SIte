@@ -242,6 +242,7 @@ img {
     text-align: center;
 }
 
+/*Cards*/
 .courses-cards-container{
     display: flex;
     flex-direction: column;
@@ -317,3 +318,51 @@ img {
     text-align: right;
 }
 
+@media (max-width: 750px){
+    .courses {
+        padding: 40px 20px;
+    }
+
+    .courses-cards{
+        height: auto;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        text-decoration: none;
+    }
+    
+    .courses-cards-img-wrapper{
+        min-width: none;
+        max-width: none;
+        width: 100%;
+        height: 200px;
+        background-size: cover;
+        position: relative;
+    }
+    
+    .courses-cards-img-overlay{
+        width: 100%;
+        height: 200px;
+        background-color: var(--color-course-overlay);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .courses-cards-title{
+        line-height: none;
+        font-size: 24px;
+        letter-spacing: none;
+    }
+    
+    .courses-cards-text-container{
+        font-size: 12px;
+        gap: 5px;
+        height: 100%;
+    }
+    
+    .courses-cards-text{
+        height: auto;
+    }
+    
+}
