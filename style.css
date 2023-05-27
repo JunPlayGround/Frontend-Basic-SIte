@@ -262,7 +262,7 @@ img {
 .courses-cards:hover{
     transition-property: background-color box-shadow;
     transition-duration: 500ms;
-    transition-timing-function: ease;
+    transition-timing-function: linear;
     background-color: var(--color-course-hover-yellow);
     box-shadow: 12px 12px 0px var(--color-button-hover-red);
 }
