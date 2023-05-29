@@ -258,12 +258,12 @@ img {
     align-items: center;
     flex-direction: row;
     text-decoration: none;
-}
-
-.courses-cards:hover{
     transition-property: background-color box-shadow;
     transition-duration: 500ms;
     transition-timing-function: linear;
+}
+
+.courses-cards:hover{
     background-color: var(--color-course-hover-yellow);
     box-shadow: 12px 12px 0px var(--color-button-hover-red);
 }
@@ -384,12 +384,12 @@ img {
     text-decoration: none;
     align-items: center;
     position: relative;
-}
-
-.courses-button-container:hover{
     transition-property: background-color box-shadow;
     transition-duration: 500ms;
     transition-timing-function: linear;
+}
+
+.courses-button-container:hover{
     background-color: var(--color-course-hover-red);
     box-shadow: 12px 12px 0px var(--color-button-hover-yellow);
 }
