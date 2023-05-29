@@ -157,6 +157,7 @@ img {
 }
 
 .about-main-copy {
+    line-height: 48px;
     margin: 0;
     font-size: 32px;
     font-family: var(--font-family-heading);
