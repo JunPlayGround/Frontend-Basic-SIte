@@ -263,7 +263,7 @@ img {
     flex-direction: row;
     text-decoration: none;
     transition-property: "background-color" "box-shadow";
-    transition-duration: 150ms;
+    transition-duration: 300ms;
     transition-timing-function: linear;
 }
 
@@ -389,7 +389,7 @@ img {
     align-items: center;
     position: relative;
     transition-property: "background-color" "box-shadow";
-    transition-duration: 150ms;
+    transition-duration: 300ms;
     transition-timing-function: linear;
 }
 
