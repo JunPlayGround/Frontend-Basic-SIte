@@ -305,6 +305,7 @@ img {
     font-size: 16px;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     gap: 10px;
     height: 100%;
 }
@@ -312,7 +313,6 @@ img {
 .courses-cards-text{
     margin: 0;
     color: var(--color-black);
-    height: 108px;
 }
 
 .courses-cards-look{
