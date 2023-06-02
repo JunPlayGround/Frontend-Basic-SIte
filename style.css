@@ -12,8 +12,8 @@
     --color-form-background-yellow: #fffab9;
     --color-form-background-grey: #ad9783;
     --color-form-border-red: #df6da2;
-    --color-button-hover-red: #f004a5;
-    --color-course-hover-yellow: #f4e877;
+    --color-hover-red: #f004a5;
+    --color-hover-yellow: #f4e877;
     --color-hero-overlay: rgba(57, 24, 111, 0.4);
     --color-course-overlay: rgba(32, 8, 19, 0.63);
 }
@@ -267,8 +267,8 @@ img {
 }
 
 .courses-cards:hover{
-    background-color: var(--color-course-hover-yellow);
-    box-shadow: 12px 12px 0px var(--color-button-hover-red);
+    background-color: var(--color-hover-yellow);
+    box-shadow: 12px 12px 0px var(--color-hover-red);
 }
 
 .courses-cards-img-wrapper{
@@ -393,8 +393,8 @@ img {
 }
 
 .button-container:hover{
-    background-color: var(--color-button-hover-red);
-    box-shadow: 12px 12px 0px var(--color-course-hover-yellow);
+    background-color: var(--color-hover-red);
+    box-shadow: 12px 12px 0px var(--color-hover-yellow);
 }
 
 .button-title{
@@ -418,3 +418,7 @@ img {
         font-size: 14px;
     }
 }
+
+/*Signup*/
+
+/*Footer*/
