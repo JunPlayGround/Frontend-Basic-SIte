@@ -375,7 +375,7 @@ img {
 }
 
 /*Button*/
-.courses-button-container{
+.button-container{
     background-color: var(--color-accent-red);
     box-shadow: 4px 4px 0px var(--color-accent-yellow);
     padding: 10px 40px;
@@ -392,12 +392,12 @@ img {
     transition-timing-function: linear;
 }
 
-.courses-button-container:hover{
+.button-container:hover{
     background-color: var(--color-button-hover-red);
     box-shadow: 12px 12px 0px var(--color-course-hover-yellow);
 }
 
-.courses-button-title{
+.button-title{
     width: 670px;
     margin: 0;
     font-size: 20px;
@@ -407,13 +407,13 @@ img {
 }
 
 @media(max-width: 750px) {
-    .courses-button-container{
+    .button-container{
         padding: 10px 20px;
         height: 40px;
         gap: 10px;
     }
     
-    .courses-button-title{
+    .button-title{
         width: 600px;
         font-size: 14px;
     }
