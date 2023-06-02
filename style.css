@@ -422,3 +422,18 @@ img {
 /*Signup*/
 
 /*Footer*/
+.footer{
+    background-color: var(--color-background-black);
+    display: flex;
+    margin: 0;
+    width: 100%;
+    padding: 60px;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-copyright{
+    font-family: var(--font-family-about-mobile);
+    color: var(--color-white);
+    text-align: center;
+}
