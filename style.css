@@ -436,4 +436,5 @@ img {
     font-family: var(--font-family-about-mobile);
     color: var(--color-white);
     text-align: center;
+    margin: 0;
 }
