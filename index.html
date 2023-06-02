@@ -117,5 +117,41 @@
             </a>
         </div>
     </section>
+    <div class="signup"><!--action=""-->
+        <div class="signup-container">
+            <h2 class="signup-title">Let's Try!</h2>
+            <p class="signup-text">
+                Grand Playersでは、ご利用登録いただけた方に対し、３レッスン分の無料枠をプレゼントいたします！<br>
+                今すぐレッスンを初めて、”Grand”なプレイヤーを目指しましょう！<br>
+                お申し込みは下記フォームからどうぞ！<br>
+            </p>
+            <form class="signup-form-container">
+                <div class="signup-form-input">
+                    <label for="name" class="signup-name">お名前</label>
+                    <input type="text" name="name" placeholder="エドワード　ヴァン　太郎" required>
+                </div>
+                <div class="signup-form-input">
+                    <label for="email" class="signup-email">メールアドレス</label>
+                    <input type="email" name="email" placeholder="grand.players@example.com" required>
+                </div>
+                <div class="signup-form-input">
+                    <label for="year" class="signup-guiter-year">ギター歴（年）</label>
+                    <input type="number" name="year" placeholder="3" min="0" required>
+                </div>
+                <div class="signup-form-input">
+                    <label for="enthusiasm" class="signup-guiter-year">意気込みをどうぞ！</label>
+                    <textarea name="enthusiasm" placeholder="イカすギターソロをかましてモテた～い！" >
+                </div>
+            </form>
+            <input form="signup-form-container" class="courses-button-container">
+                <div class="courses-button-arrow">
+                    <img src="./img/arrow-right.svg" alt="rightarrow">
+                </div>
+                <p class="courses-button-title">
+                    送信する
+                </p>
+            </input>
+        </div>
+    </div>
 </body>
 </html>
