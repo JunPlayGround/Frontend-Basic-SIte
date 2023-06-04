@@ -277,7 +277,6 @@ img {
     min-width: 250px;
     height: 100%;
     background-size: cover;
-    position: relative;
 }
 
 .courses-cards-img-overlay{
@@ -344,7 +343,6 @@ img {
         width: 100%;
         height: 200px;
         background-size: cover;
-        position: relative;
     }
     
     .courses-cards-img-overlay{
@@ -386,7 +384,6 @@ img {
     gap: 20px;
     text-decoration: none;
     align-items: center;
-    position: relative;
     transition-property: background-color, box-shadow;
     transition-duration: 300ms;
     transition-timing-function: linear;
@@ -428,7 +425,6 @@ img {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    position: relative;
     font-family: var(--font-family-body);
 }
 
