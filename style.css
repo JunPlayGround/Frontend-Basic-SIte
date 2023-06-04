@@ -484,6 +484,10 @@ img {
     border-radius: 8px;
 }
 
+.signup-form-area[id="enthusiasm"]{
+    height: 100px;
+}
+
 .signup-form-area::placeholder{
     color: var(--color-form-background-grey);
 }

@@ -117,7 +117,7 @@
             </a>
         </div>
     </section>
-    <div class="signup"><!--action=""-->
+    <div class="signup">
         <div class="signup-container">
             <h2 class="signup-title">Let's Try!</h2>
             <p class="signup-text">
@@ -125,23 +125,22 @@
                 今すぐレッスンを初めて、”Grand”なプレイヤーを目指しましょう！<br>
                 お申し込みは下記フォームからどうぞ！<br>
             </p>
-            <form class="signup-form-container">
+            <form class="signup-form-container"><!--action=""-->
                 <div class="signup-form-input">
                     <label for="name" class="signup-label">お名前</label>
-                    <input class="signup-form-area" type="text" name="name" placeholder="エドワード ヴァン 太郎" required>
+                    <input class="signup-form-area" type="text" name="name" id="name" placeholder="エドワード ヴァン 太郎" required>
                 </div>
                 <div class="signup-form-input">
                     <label for="email" class="signup-label">メールアドレス</label>
-                    <input class="signup-form-area" type="email" name="email" placeholder="grand.players@example.com" required>
+                    <input class="signup-form-area" type="email" name="email" id="email" placeholder="grand.players@example.com" required>
                 </div>
                 <div class="signup-form-input">
                     <label for="year" class="signup-label">ギター歴（年）</label>
-                    <input class="signup-form-area"  type="number" name="year" placeholder="3" min="0" required>
+                    <input class="signup-form-area"  type="number" name="year" id="year" placeholder="3" min="0" required>
                 </div>
                 <div class="signup-form-input">
                     <label for="enthusiasm" class="signup-label">意気込みをどうぞ！</label>
-                    <textarea class="signup-form-area" name="enthusiasm" placeholder="イカすギターソロをかましてモテた～い！" >
-                    </textarea>
+                    <textarea class="signup-form-area" type="text" name="enthusiasm" id="enthusiasm" placeholder="イカすギターソロをかましてモテた～い！" ></textarea>
                 </div>
             </form>
             <button form="signup-form-container" class="button-container">
