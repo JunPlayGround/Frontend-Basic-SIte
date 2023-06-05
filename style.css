@@ -422,9 +422,7 @@ img {
     background-color: var(--color-accent-yellow);
     background-size: cover;
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    align-items: center;
     font-family: var(--font-family-body);
 }
 
@@ -450,6 +448,7 @@ img {
     margin: 0;
     width: 100%;
     font-size: 16px;
+    line-height: 22px;
 }
 
 .signup-form-container{
