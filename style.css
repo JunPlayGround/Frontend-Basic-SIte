@@ -12,8 +12,8 @@
     --color-form-background-yellow: #fffab9;
     --color-form-background-grey: #ad9783;
     --color-form-border-red: #df6da2;
-    --color-button-hover-red: #f004a5;
-    --color-course-hover-yellow: #f4e877;
+    --color-hover-red: #f004a5;
+    --color-hover-yellow: #f4e877;
     --color-hero-overlay: rgba(57, 24, 111, 0.4);
     --color-course-overlay: rgba(32, 8, 19, 0.63);
 }
@@ -267,8 +267,8 @@ img {
 }
 
 .courses-cards:hover{
-    background-color: var(--color-course-hover-yellow);
-    box-shadow: 12px 12px 0px var(--color-button-hover-red);
+    background-color: var(--color-hover-yellow);
+    box-shadow: 12px 12px 0px var(--color-hover-red);
 }
 
 .courses-cards-img-wrapper{
@@ -277,7 +277,6 @@ img {
     min-width: 250px;
     height: 100%;
     background-size: cover;
-    position: relative;
 }
 
 .courses-cards-img-overlay{
@@ -344,7 +343,6 @@ img {
         width: 100%;
         height: 200px;
         background-size: cover;
-        position: relative;
     }
     
     .courses-cards-img-overlay{
@@ -375,7 +373,7 @@ img {
 }
 
 /*Button*/
-.courses-button-container{
+.button-container{
     background-color: var(--color-accent-red);
     box-shadow: 4px 4px 0px var(--color-accent-yellow);
     padding: 10px 40px;
@@ -386,18 +384,17 @@ img {
     gap: 20px;
     text-decoration: none;
     align-items: center;
-    position: relative;
     transition-property: background-color, box-shadow;
     transition-duration: 300ms;
     transition-timing-function: linear;
 }
 
-.courses-button-container:hover{
-    background-color: var(--color-button-hover-red);
-    box-shadow: 12px 12px 0px var(--color-course-hover-yellow);
+.button-container:hover{
+    background-color: var(--color-hover-red);
+    box-shadow: 12px 12px 0px var(--color-hover-yellow);
 }
 
-.courses-button-title{
+.button-title{
     width: 670px;
     margin: 0;
     font-size: 20px;
@@ -407,14 +404,157 @@ img {
 }
 
 @media(max-width: 750px) {
-    .courses-button-container{
+    .button-container{
         padding: 10px 20px;
         height: 40px;
         gap: 10px;
     }
     
-    .courses-button-title{
+    .button-title{
         width: 600px;
         font-size: 14px;
+    }
+}
+
+/*Signup*/
+.signup{
+    padding: 80px 20px;
+    background-color: var(--color-accent-yellow);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    font-family: var(--font-family-body);
+}
+
+.signup-container{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    max-width: 800px;
+    width: 100%;
+    gap: 40px;
+}
+
+.signup-title{
+    font-family: var(--font-family-heading);
+    font-weight: 400;
+    font-size: 32px;
+    margin: 0;
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+
+.signup-text{
+    margin: 0;
+    width: 100%;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.signup-form-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.signup-form-input{
+    display: flex;
+    flex-direction: row;
+    align-items: top;
+}
+
+.signup-label{
+    font-size: 20px;
+    min-width: 250px;
+    max-width: 250px;
+}
+
+.signup-form-area{
+    font-size: 18px;
+    padding: 10px 10px;
+    width: 100%;
+    background-color: var(--color-form-background-yellow);
+    border: 1px solid var(--color-form-border-red);
+    border-radius: 8px;
+}
+
+.signup-form-area[id="enthusiasm"]{
+    height: 100px;
+}
+
+.signup-form-area::placeholder{
+    color: var(--color-form-background-grey);
+    font-size: 16px;
+}
+
+.signup-container > .button-container {
+    box-shadow: 4px 4px 0px var(--color-black);
+    border-color: var(--color-accent-red);
+}
+
+.signup-container > .button-container:hover {
+    box-shadow: 12px 12px 0px var(--color-background-naby);
+    border-color: var(--color-hover-red);
+}
+
+@media (max-width: 750px){
+    .signup{
+        padding: 40px 20px;
+    }
+    
+    .signup-title{
+        font-size: 24px;
+    }
+
+    .signup-form-container{
+        gap: 10px;
+    }
+
+    .signup-form-input{
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .signup-label{
+        font-size: 16px;
+    }
+
+    .signup-form-area{
+        padding: 8px;
+        font-size: 14px;
+    }
+
+    .signup-form-area::placeholder{
+        font-size: 12px;
+    }
+}
+
+/*Footer*/
+.footer{
+    background-color: var(--color-background-black);
+    display: flex;
+    margin: 0;
+    width: 100%;
+    padding: 60px;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-copyright{
+    font-family: var(--font-family-about-mobile);
+    color: var(--color-white);
+    text-align: center;
+    margin: 0;
+    font-size: 16px;
+}
+
+@media (max-width: 750px){
+    .footer{
+        padding: 40px;
+    }
+    
+    .footer-copyright{
+        font-size: 12px;
     }
 }
