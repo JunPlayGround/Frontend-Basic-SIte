@@ -490,7 +490,7 @@ img {
 
 .signup-container > .button-container {
     box-shadow: 4px 4px 0px var(--color-black);
-    border-color: var(--color-accent-red);
+    border: none;
 }
 
 .signup-container > .button-container:hover {
